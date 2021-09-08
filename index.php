@@ -47,6 +47,7 @@ if (isset($_POST['enqurynow']))
 
 ?>
 
+
 <!DOCTYPE HTML>
 <html lang="en" data-random-animation="false" data-animation="31">
     <head>
@@ -186,7 +187,7 @@ if (isset($_POST['enqurynow']))
                             </ul>
                             <!--Copyright Text-->
                             <div class="copy">
-                                <p>2020 &copy; <a href="https://aryabeth.my.id/">aryabeth.my.id</a> <br>All Right Reserved.</p>
+                                <p>2021 &copy; <a href="https://aryabeth.github.io/">aryabeth.github.io/</a> <br>All Right Reserved.</p>
                             </div>
                         </div>
 
@@ -274,7 +275,7 @@ if (isset($_POST['enqurynow']))
                                         <li><span class="title">Freelance</span><span class="value">Available</span></li>
                                     </ul>
                                     <div class="resume-button mt-30">
-                                        <a class="btn-main" href="CV2020-IMadeAryaBetaWidyatmika.pdf" target="_blank">Download Resume</a>
+                                        <a class="btn-main" href="CV2021-IMadeAryaBetaWidyatmika.pdf" target="_blank">Download Resume</a>
                                     </div>
                                 </div>
                             </div>
@@ -546,7 +547,22 @@ if (isset($_POST['enqurynow']))
                                     <h3>Experience</h3>
                                 </div>
                                 <ul class="experience">
-
+				    <!--Experience Item-->
+                                    <li>
+                                        <span class="line-left"></span>
+                                        <div class="content">
+                                            <h4>Web Developer</h4>
+                                            <h5>Kesato, Canggu</h5>
+                                            <p class="info">
+                                                Develop website and maintenance client website. 
+                                            </p>
+                                        </div>
+                                        <span class="year">
+                                            <span class="to">Present</span>
+                                            <span class="from">2020</span>
+                                        </span>
+                                    </li>	
+					
                                     <!--Experience Item-->
                                     <li>
                                         <span class="line-left"></span>
@@ -1769,5 +1785,7 @@ if (isset($_POST['enqurynow']))
 
     </body>
 </html>
+
+
 
 
