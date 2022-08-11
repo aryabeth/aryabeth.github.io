@@ -11,7 +11,6 @@ if (isset($_POST['enqurynow']))
         // Make and decode POST request:
         $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
         $recaptcha = json_decode($recaptcha);
-
         // Take action based on the score returned:
         if ($recaptcha->score >= 0.55) {
 
@@ -275,7 +274,7 @@ if (isset($_POST['enqurynow']))
                                         <li><span class="title">Freelance</span><span class="value">Available</span></li>
                                     </ul>
                                     <div class="resume-button mt-30">
-                                        <a class="btn-main" href="newCV.pdf" target="_blank">Download Resume</a>
+                                        <a class="btn-main" href="NewCV.pdf" target="_blank">Download Resume</a>
                                     </div>
                                 </div>
                             </div>
