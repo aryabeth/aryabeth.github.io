@@ -275,7 +275,7 @@ if (isset($_POST['enqurynow']))
                                         <li><span class="title">Freelance</span><span class="value">Available</span></li>
                                     </ul>
                                     <div class="resume-button mt-30">
-                                        <a class="btn-main" href="CV2021-IMadeAryaBetaWidyatmika.pdf" target="_blank">Download Resume</a>
+                                        <a class="btn-main" href="newCV.pdf" target="_blank">Download Resume</a>
                                     </div>
                                 </div>
                             </div>
